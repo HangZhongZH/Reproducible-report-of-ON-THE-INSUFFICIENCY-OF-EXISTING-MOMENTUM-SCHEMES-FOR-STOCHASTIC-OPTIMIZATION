@@ -1,0 +1,6 @@
+save path : ./
+{'arch': 'resnet18', 'batch_size': 128, 'data_path': 'cifar10', 'dataset': None, 'decay': 0.0005, 'epochs': 300, 'evaluate': False, 'gammas': [0.1, 0.1], 'learning_rate': 0.1, 'manualSeed': 7910, 'momentum': 0.9, 'ngpu': 1, 'print_freq': 200, 'resume': '', 'save_path': './', 'schedule': [150, 225], 'start_epoch': 0, 'use_cuda': False, 'workers': 2}
+Random Seed: 7910
+python version : 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)]
+torch  version : 1.0.1
+cudnn  version : None

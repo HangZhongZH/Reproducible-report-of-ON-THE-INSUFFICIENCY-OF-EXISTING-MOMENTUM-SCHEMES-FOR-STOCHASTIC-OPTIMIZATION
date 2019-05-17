@@ -1,0 +1,53 @@
+import matplotlib.pyplot as plt
+import numpy as np
+rounds=40
+plt.figure()
+x=np.linspace(0,rounds,rounds)
+#plt.plot(x,asg128l[0:rounds,0],c='r',label='Accsgd')
+plt.plot(x,hb128l[0:rounds,0],c='g',label='HB')
+plt.plot(x,nag128l[0:rounds,0],c='b',label='NAG')
+plt.plot(x,sgd128l000[0:rounds,0],'y',label='SGD')
+plt.xlabel('number of passes')
+plt.ylabel('cross enrtropy')
+plt.legend()
+plt.grid(color='k', linestyle='--', linewidth=.1)
+plt.title('train loss when batch size128')
+
+plt.figure()
+x=np.linspace(0,rounds,rounds)
+#plt.plot(x,asg128l[0:rounds,1],c='r',label='Accsgd')
+plt.plot(x,hb128l[0:rounds,1],c='g',label='HB')
+plt.plot(x,nag128l[0:rounds,1],c='b',label='NAG')
+plt.plot(x,sgd128l000[0:rounds,1],'y',label='SGD')
+plt.xlabel('number of passes')
+plt.ylabel('cross enrtropy')
+plt.legend()
+plt.grid(color='k', linestyle='--', linewidth=.1)
+plt.title('validation loss when batch size128')
+
+
+plt.figure()
+x=np.linspace(0,40,40)
+plt.plot(x,asg8k[0:40,0],c='r',label='Accsgd')
+plt.plot(x,hb8l[0:40,0],c='g',label='HB')
+plt.plot(x,nag8l[0:40,0],c='b',label='NAG')
+plt.plot(x,sgd8l[0:40,0],'y',label='SGD')
+plt.xlabel('number of passes')
+plt.ylabel('cross enrtropy')
+plt.legend()
+plt.grid(color='k', linestyle='--', linewidth=.1)
+plt.title('train loss when batch size 8,lr0.033(fixed)')
+
+
+plt.figure()
+x=np.linspace(0,40,40)
+plt.plot(x,asg8k[0:40,1],c='r',label='Accsgd')
+plt.plot(x,hb8l[0:40,1],c='g',label='HB')
+plt.plot(x,nag8l[0:40,1],c='b',label='NAG')
+plt.plot(x,sgd8l[0:40,1],'y',label='SGD')
+plt.xlabel('number of passes')
+plt.ylabel('cross enrtropy')
+plt.legend()
+plt.grid(color='k', linestyle='--', linewidth=.1)
+plt.title('validation loss when batch size8,lr0.033(fixed)')
+
