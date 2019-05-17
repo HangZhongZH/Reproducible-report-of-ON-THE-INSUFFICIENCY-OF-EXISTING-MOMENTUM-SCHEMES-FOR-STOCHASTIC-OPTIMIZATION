@@ -12,7 +12,5 @@ In folder ’deep auto-encoder’, ‘Choose_ASGD.ipynb’, ‘Choose_SGD.ipynb�
 In foler ‘deep ResNet for Cifar10’, the name of the file shows the setting of parameters. For example, hb120128l means the HB method when batch size 128 and epoch 120 with learning rate decayed.
 ASG8_40 means ASGd method for batchsize8 and 40 epoch. And this is the main code.
 for running the main code, just run cmd. for example
---asg8_40.py cifar10 --data cifar10 --learning_rate 0.033 --epoch 40 batch_size 8
-
-the resnet code is referenced from https://github.com/D-X-Y/ResNeXt-DenseNet and we modify the code based on that.
+--asg8_40.py cifar10 --data cifar10 --learning_rate 0.033 --epoch 40 batch_size 8. The resnet code is referenced from https://github.com/D-X-Y/ResNeXt-DenseNet and we modify the code based on that.
  
