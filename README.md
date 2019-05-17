@@ -1,6 +1,6 @@
 # Reproducible-report-of-ON-THE-INSUFFICIENCY-OF-EXISTING-MOMENTUM-SCHEMES-FOR-STOCHASTIC-OPTIMIZATION
 
-In this repository, we provide the source code of ‘Reproducible report of ON THE INSUFFICIENCY OF EXISTING MOMENTUM SCHEMES FOR STOCHASTIC OPTIMIZATION’. 
+In this repository, we provide the source code of ‘Reproducible report of on the insufficiency of existing momentum schemes for stochastic optimization’. 
 
 
 
